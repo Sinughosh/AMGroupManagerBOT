@@ -248,7 +248,7 @@ def Am_about_callback(update: Update, context: CallbackContext):
             text="➕️ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀᴅᴍɪɴꜱ ", callback_data="admin_back"),
+        InlineKeyboardButton(text="𝗔𝗗𝗠𝗜𝗡𝗦 ", callback_data="admin_back"),
         InlineKeyboardButton(
             text="ᴜꜱᴇʀꜱ", callback_data="user_back"
         ),
