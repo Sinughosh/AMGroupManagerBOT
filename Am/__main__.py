@@ -192,7 +192,7 @@ def start(update: Update, context: CallbackContext):
                         url=f"https://t.me/AM_YTSUPPORT"),
                     InlineKeyboardButton(
                         text="Gbans", 
-                        url=f"https://t.me/Logs_Gban")
+                        url=f"https://t.me/shadow_2nd_supreme")
                     
                 ],
                 
@@ -229,11 +229,11 @@ def Am_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/AM_YTSUPPORT"),
-                     InlineKeyboardButton(text="News", url="t.me/AMBOTYT"),
+                     InlineKeyboardButton(text="Support", url="t.me/shadow_2nd_supreme"),
+                     InlineKeyboardButton(text="News", url="t.me/shadow2ndsupreme"),
                    ],
                    [
-                    InlineKeyboardButton(text="Back", callback_data="Am_back")
+                    InlineKeyboardButton(text="Back", callback_data="ix_bot_logs")
                    ]
                 ]
             ),
